@@ -1,0 +1,121 @@
+
+.main-heading {
+    text-align: left;
+    font-size: 50px;
+    font-style: oblique;
+    border-bottom: 0px solid blue;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    font-family: "Roboto Serif", serif;
+    font-style: normal;
+}
+
+.section_two .txt-display p{ 
+    font-family: 'Poppins', sans-serif;  
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    border: 0px solid red;
+}
+
+.section_two{        
+    margin-bottom: 80px;
+    
+}
+
+.flexslider {
+    height: 550px;
+    border: 0px solid blue !important;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    
+}
+
+.flexslider .slides {
+    padding: 25px;      
+    
+}
+
+.flexslider ul li {    
+    border: 0px solid #828282;
+}
+
+
+@keyframes slideRight{
+    0%{
+        transform:  translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform:  translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideTop{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+@keyframes floatImage{
+    0%{
+        transform: translateY(0);
+        
+    }
+    50%{
+        transform: translateY(-24px);
+        
+    }
+    
+    100%{
+        transform: translateY(0);
+        
+    }
+}  
+
+
+
+
