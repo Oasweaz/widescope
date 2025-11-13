@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    
+}
+
+.blue{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    order: 1;
+
+}
+
+.red{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    order: 2;
+
+}
+
+@media screen and (max-width:420px) {
+
+    .blue{
+        width: 100%;
+        height: 400px;
+        
+        
+    
+    }
+    
+    .red{
+        width: 100%;
+        height: 400px;
+       
+        
+    
+    }  
+
+
+#box1{
+    order: 2;
+}
+
+#box2{
+    order: 1;
+}
+
+}
